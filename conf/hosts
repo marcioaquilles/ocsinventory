@@ -12,8 +12,8 @@
 # Configuração das pesquisas de DNS local utilizando o arquivo hosts
 # Acrescentar o endereço IP + HOSTNAME do servidor
 127.0.0.1		localhost
-127.0.1.1		ptispo01is01
-172.16.10.11	ptispo01is01.pti.intra	ptispo01is01
+127.0.1.1		srvocsinv
+172.21.100.19 srvocsinv.aged.intra	srvocsinv
 
 # Configurações de IPv6 não serão utilizadas nesse curso.
 ::1     localhost ip6-localhost ip6-loopback
