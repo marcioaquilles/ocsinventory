@@ -39,16 +39,16 @@ KERNEL=`uname -r | cut -d'.' -f1,2`
 # Variáveis de configuração da instalação MySQL Server (USER usuário root do MySQL | PASSWORD senha do usuário Root)
 # CUIDADO!!!!: essa senha será utilizada nos arquivos de configuração do PhpMyAdmin e no arquivo: mysql.conf do Netdata
 USER="root"
-PASSWORD="123456"
+PASSWORD="aged@2022"
 #
 # Variáveis de instalação e configuração do PhpMyAdmin
 # ADMINUSER usuário de administração do MySQL | WEBSERVER servidor Web para configuração do PhpMyAmin | ADMIN_PASS senha
 # do usuário de administração do MySQL | APP_PASSWORD e APP_PASS senha de administração do PhpMyAdmin
 ADMINUSER="root"
 WEBSERVER="apache2"
-ADMIN_PASS="123456"
-APP_PASSWORD="123456"
-APP_PASS="123456"
+ADMIN_PASS="aged@2022"
+APP_PASSWORD="aged@2022"
+APP_PASS="aged@2022"
 #
 # Variáveis de download do OCS Inventory Server e Reports
 # Site: https://www.ocsinventory-ng.org/en/
@@ -116,7 +116,7 @@ NETDATAINSTALL="netdata"
 # 'ocs'@'localhost' usuário de administração do banco de dados do OCS Inventory | PASSWORD('123456') nova senha 
 # do usuário ocs, CUIDADO!!!!: essa senha será utilizada nos arquivos de configuração do OCS Inventory: dbconfig.inc.php, 
 # z-ocsinventory-server.conf e zz-ocsinventory-restapi.conf
-SETOCSPWD="SET PASSWORD FOR 'ocs'@'localhost' = PASSWORD('123456');"
+SETOCSPWD="SET PASSWORD FOR 'ocs'@'localhost' = PASSWORD('aged@2022');"
 FLUSH="FLUSH PRIVILEGES;"
 #
 # Variáveis de verificação do Chip Gráfico da NVIDIA
