@@ -17,13 +17,13 @@ auto lo
 iface lo inet loopback
 
 # Configurações da interface de rede estática enp0s3
-auto enp0s3
-iface enp0s3 inet static
-address 172.16.10.11
+auto ens18
+iface ens18 inet static
+address 172.21.100.19
 netmask 255.255.255.0
-network 172.16.10.0
-gateway 172.16.10.1
-broadcast 172.16.10.255
-dns-nameservers 172.16.10.10
-dns-search pti.intra
-dns-domain pti.intra
+network 172.21.100.0
+gateway 172.21.100.1
+broadcast 172.21.100.255
+dns-nameservers 172.21.100.2
+dns-search aged.intra
+dns-domain aged.intra
