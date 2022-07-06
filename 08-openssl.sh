@@ -25,14 +25,14 @@ export DEBIAN_FRONTEND="noninteractive"
 # opção do comando if: [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = 
 # A maioria dos erros comuns na execução
 clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "16.04" ] && [ "$KERNEL" == "4.4" ]
+if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "20.04" ] && [ "$KERNEL" == "5.4" ]
 	then
 		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >=16.04.x, continuando com o script..."
-		echo -e "Kernel é >= 4.4, continuando com o script..."
+		echo -e "Distribuição é >=20.04.x, continuando com o script..."
+		echo -e "Kernel é >= 5.4, continuando com o script..."
 		sleep 5
 	else
-		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=16.04.x ($UBUNTU) ou Kernel não é >=4.4 ($KERNEL)"
+		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=20.04.x ($UBUNTU) ou Kernel não é >=5.4 ($KERNEL)"
 		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
 		echo -e "Execute novamente o script para verificar o ambiente."
 		exit 1
@@ -79,11 +79,11 @@ echo -e "Criando o arquivo CSR (Certificate Signing Request), nome FQDN: `hostna
 	# Criando o arquivo CSR, mensagens que serão solicitadas para a criação do certificado
 	# Country Name (2 letter code): BR <-- pressione <Enter>
 	# State or Province Name (full name): Brasil <-- pressione <Enter>
-	# Locality Name (eg, city): Sao Paulo <-- pressione <Enter>
-	# Organization Name (eg, company): Bora para Pratica <-- pressione <Enter>
-	# Organization Unit Name (eg, section): Procedimentos em TI <-- pressione <Enter>
-	# Common Name (eg, server FQDN or YOUR name): ocs.pti.intra <-- pressione <Enter>
-	# Email Address: pti@pti.intra <-- pressione <Enter>
+	# Locality Name (eg, city): Maranhao <-- pressione <Enter>
+	# Organization Name (eg, company): Aged <-- pressione <Enter>
+	# Organization Unit Name (eg, section): Agência Estadual de Defesa Agropecuária do Maranhão <-- pressione <Enter>
+	# Common Name (eg, server FQDN or YOUR name): srvocsinv.aged.intra <-- pressione <Enter>
+	# Email Address: cinformatica@aged.gov.br <-- pressione <Enter>
 	# A challenge password: <-- pressione <Enter>
 	# A optional company name: <-- pressione <Enter>
 	openssl req -new -key ocs.key -out ocs.csr
