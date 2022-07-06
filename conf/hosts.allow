@@ -13,7 +13,7 @@
 # Liberando apenas um computador para o acesso remoto no SSH
 # Logando as informações de acesso no arquivo de log: /var/log/tcpwrappers-allow-ssh.log
 #
-sshd: 172.16.10.45: spawn /bin/echo "$(date) Conexão Liberada - SSH - IP %a" >> /var/log/tcpwrappers-allow-ssh.log
+sshd: 172.21.100.19: spawn /bin/echo "$(date) Conexão Liberada - SSH - IP %a" >> /var/log/tcpwrappers-allow-ssh.log
 
 #Exemplos de configuração:
 #Liberando uma subrede
