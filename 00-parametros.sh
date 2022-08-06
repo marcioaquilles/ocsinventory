@@ -39,16 +39,16 @@ KERNEL=`uname -r | cut -d'.' -f1,2`
 # Variáveis de configuração da instalação MySQL Server (USER usuário root do MySQL | PASSWORD senha do usuário Root)
 # CUIDADO!!!!: essa senha será utilizada nos arquivos de configuração do PhpMyAdmin e no arquivo: mysql.conf do Netdata
 USER="root"
-PASSWORD="aged@2022"
+PASSWORD="Aged2022"
 #
 # Variáveis de instalação e configuração do PhpMyAdmin
 # ADMINUSER usuário de administração do MySQL | WEBSERVER servidor Web para configuração do PhpMyAmin | ADMIN_PASS senha
 # do usuário de administração do MySQL | APP_PASSWORD e APP_PASS senha de administração do PhpMyAdmin
 ADMINUSER="root"
 WEBSERVER="apache2"
-ADMIN_PASS="aged@2022"
-APP_PASSWORD="aged@2022"
-APP_PASS="aged@2022"
+ADMIN_PASS="Aged2022"
+APP_PASSWORD="Aged2022"
+APP_PASS="Aged2022"
 #
 # Variáveis de download do OCS Inventory Server e Reports
 # Site: https://www.ocsinventory-ng.org/en/
@@ -116,7 +116,7 @@ NETDATAINSTALL="netdata"
 # 'ocs'@'localhost' usuário de administração do banco de dados do OCS Inventory | PASSWORD('123456') nova senha 
 # do usuário ocs, CUIDADO!!!!: essa senha será utilizada nos arquivos de configuração do OCS Inventory: dbconfig.inc.php, 
 # z-ocsinventory-server.conf e zz-ocsinventory-restapi.conf
-SETOCSPWD="SET PASSWORD FOR 'ocs'@'localhost' = PASSWORD('aged@2022');"
+SETOCSPWD="SET PASSWORD FOR 'ocs'@'localhost' = PASSWORD('Aged2022');"
 FLUSH="FLUSH PRIVILEGES;"
 #
 # Variáveis de verificação do Chip Gráfico da NVIDIA
@@ -146,8 +146,8 @@ PM="/usr/local/share/perl/5.22.1/Ocsinventory/Agent/Modules/Snmp"
 #
 # Variável de localização do diretório dos arquivos de Modelos de MIBs XML Personalizados do OCS Inventory Agent
 # OBSERVAÇÃO: alterar o endereço HTTPS para FQDN ou IP do seu servidor de OCS Inventory Reports
-XMLLOCAL="/var/lib/ocsinventory-agent/https:__ocs.pti.intra/snmp/mibs/local"
-XMLREMOTE="/var/lib/ocsinventory-agent/https:__ocs.pti.intra/snmp/mibs/remote"
+XMLLOCAL="/var/lib/ocsinventory-agent/https:__srvocsinv.aged.intra/snmp/mibs/local"
+XMLREMOTE="/var/lib/ocsinventory-agent/https:__srvocsinv.aged.intra/snmp/mibs/remote"
 #
 # Variáveis de download do OCS Inventory Agent Microsoft, MacOS, Android e Ferramentas de Deploy
 # Site Agent Windows: https://github.com/OCSInventory-NG/WindowsAgent/releases
