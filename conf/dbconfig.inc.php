@@ -21,7 +21,7 @@ define("SERVER_PORT","3306");
 // Nome do Usuário de autenticação na Base de Dados do OCS Inventory Server
 define("COMPTE_BASE","ocs");
 // Senha do Usuário de autenticação na Base de Dados do OCS Inventory Server
-define("PSWD_BASE","123456");
+define("PSWD_BASE","Aged2022");
 // Configurações do Suporte ao SSL HTTPS do OCS Inventory Server
 define("ENABLE_SSL","0");
 define("SSL_MODE","");
