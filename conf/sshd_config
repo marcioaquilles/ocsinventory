@@ -36,8 +36,8 @@ LogLevel INFO
 PermitRootLogin no
 
 # Usuários ou grupos que tem permissão de acesso ao SSH
-AllowUsers vaamonde
-AllowGroups vaamonde
+AllowUsers informatica
+AllowGroups informatica
 
 # Usuários que não tem permissão de acesso ao SSH
 DenyUsers root
@@ -55,7 +55,7 @@ ClientAliveCountMax 0
 MaxAuthTries 3
 
 # Endereço IP do servidor que está liberado para permitir conexões via SSH
-ListenAddress 172.16.10.11
+ListenAddress 172.21.100.19
 
 # Não ler os arquivos ~/.rhosts e ~/.shosts
 IgnoreRhosts yes
