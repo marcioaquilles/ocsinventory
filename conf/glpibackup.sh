@@ -13,7 +13,7 @@
 #Variáveis de ambiente do script
 HOST="localhost"
 USER="root"
-PWD="123456"
+PWD="Aged2022"
 DB="glpi"
 PATH_1="/backup/glpi"
 DATA=`date +%d_%m_%Y-%H_%M`
