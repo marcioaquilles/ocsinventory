@@ -13,7 +13,7 @@
 #Variáveis de ambiente do script
 HOST="localhost"
 USER="root"
-PWD="123456"
+PWD="Aged2022"
 DB="ocsweb"
 PATH_1="/backup/ocsinventory"
 DATA=`date +%d_%m_%Y-%H_%M`
