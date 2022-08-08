@@ -75,8 +75,8 @@ OCSAGENTINSTALL="Ocsinventory-Unix-Agent-2.9.3"
 # Atualização para a versão 9.4.6 no dia 08/11/2020 - verificar arquivo CHANGELOG
 # OBSERVAÇÃO: a versão 9.4.6 do GLPI é a última com suporte ao PHP 7.0, a partir da versão 9.5.x o suporte é para 
 # versões >= 7.2 do PHP, nesse curso não será mais atualizado as versões do GLPI e do Plugin do OCS Inventory
-GLPIVERSION="9.1/glpi-9.1.tar.gz"
-GLPITAR="glpi-9.1.tar.gz"
+GLPIVERSION="9.4.6/glpi-9.4.6.tgz"
+GLPITAR="glpi-9.4.6.tgz"
 GLPIINSTALL="glpi"
 #
 # Variáveis de download do Plugin do OCS Inventory do GLPI
