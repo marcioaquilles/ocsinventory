@@ -55,18 +55,24 @@ APP_PASS="Aged2022"
 # Github: https://github.com/OCSInventory-NG/OCSInventory-ocsreports/releases
 # Versão antiga utilizada no vídeo: 2.4/OCSNG_UNIX_SERVER_2.4.tar.gz
 # Voltado para a versão 2.7 no dia 30/11/2020 - verificar arquivo CHANGELOG
-OCSVERSION="2.10.0/OCSNG_UNIX_SERVER-2.10.0.tar.gz"
-OCSTAR="OCSNG_UNIX_SERVER-2.10.0.tar.gz"
-OCSINSTALL="OCSNG_UNIX_SERVER_2.10.0"
+#OCSVERSION="2.10.0/OCSNG_UNIX_SERVER-2.10.0.tar.gz"
+#OCSTAR="OCSNG_UNIX_SERVER-2.10.0.tar.gz"
+#OCSINSTALL="OCSNG_UNIX_SERVER_2.10.0"
+OCSVERSION="2.7/OCSNG_UNIX_SERVER_2.7.tar.gz"
+OCSTAR="OCSNG_UNIX_SERVER_2.7.tar.gz"
+OCSINSTALL="OCSNG_UNIX_SERVER_2.7"
 #
 # Variáveis de download do OCS Inventory Agent
 # Site: https://www.ocsinventory-ng.org/en/
 # Github: https://github.com/OCSInventory-NG/UnixAgent/releases
 # Versão antiga utilizada no vídeo: 2.3/Ocsinventory-Unix-Agent-2.3.tar.gz
 # Atualização para a versão 2.6.1 no dia 30/11/2020 - verificar arquivo CHANGELOG
-OCSAGENTVERSION="v2.9.2.0/Ocsinventory-Unix-Agent-2.9.3.tar.gz"
-OCSAGENTTAR="Ocsinventory-Unix-Agent-2.9.3.tar.gz"
-OCSAGENTINSTALL="Ocsinventory-Unix-Agent-2.9.3"
+#OCSAGENTVERSION="v2.9.2.0/Ocsinventory-Unix-Agent-2.9.3.tar.gz"
+#OCSAGENTTAR="Ocsinventory-Unix-Agent-2.9.3.tar.gz"
+#OCSAGENTINSTALL="Ocsinventory-Unix-Agent-2.9.3"
+OCSAGENTVERSION="v2.6.1/Ocsinventory-Unix-Agent-2.6.1.tar.gz"
+OCSAGENTTAR="Ocsinventory-Unix-Agent-2.6.1.tar.gz"
+OCSAGENTINSTALL="Ocsinventory-Unix-Agent-2.6.1"
 #
 # Variáveis de download do GLPI Help Desk
 # Site: http://glpi-project.org/spip.php?article41
