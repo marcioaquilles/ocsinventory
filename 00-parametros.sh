@@ -85,8 +85,8 @@ GLPIINSTALL="glpi"
 # Atualização para a versão 1.6.1 no dia 08/11/2020 - verificar arquivo CHANGELOG
 # OBSERVAÇÃO: a versão 9.4.6 do GLPI é a última com suporte ao PHP 7.0 e suporte a versão 1.6.1 do Plugin do OCS 
 # Inventory, nesse curso não será mais atualizado as versões do GLPI e do Plugin do OCS Inventory
-GLPIOCSVERSION="2.0.1/glpi-ocsinventoryng-2.0.1.tar.bz2"
-GLPIOCSTAR="glpi-ocsinventoryng-2.0.1.tar.bz2"
+GLPIOCSVERSION="1.6.1/glpi-ocsinventoryng-1.6.1.tar.gz"
+GLPIOCSTAR="glpi-ocsinventoryng-1.6.1.tar.gz"
 GLPIOCSINSTALL="ocsinventoryng"
 #
 # Variáveis de download do FusionInventory Server do GLPI
@@ -95,8 +95,8 @@ GLPIOCSINSTALL="ocsinventoryng"
 # Atualização para a versão 9.4+2.4 no dia 08/11/2020 - verificar arquivo CHANGELOG
 # OBSERVAÇÃO: a versão 9.4.6 do GLPI é a última com suporte ao PHP 7.0 e suporte a versão 9.4+2.4 do Plugin do 
 # FusionInventory, nesse curso não será mais atualizado as versões do GLPI e do Plugin do FusionInventory
-GLPIFISVERSION="glpi9.5%2B4.2/fusioninventory-9.5+4.2.tar.bz2"
-GLPIFISTAR="fusioninventory-9.5+4.2.tar.bz2"
+GLPIFISVERSION="glpi9.4%2B2.4/fusioninventory-9.4+2.4.tar.bz2"
+GLPIFISTAR="fusioninventory-9.4+2.4.tar.bz2"
 GLPIFISINSTALL="fusioninventory"
 #
 # Variáveis de download do FusionInventory Agent
